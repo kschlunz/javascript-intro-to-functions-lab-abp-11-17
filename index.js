@@ -27,7 +27,7 @@ function sayHiToGrandma(phrase){
     else if  ("I love you, Grandma." == phrase){
       return "I love you, too."
 
-    else{
+    else if(phrase.toLowerCase()== phrase){
       return   "I can't hear you!"
     }
 
